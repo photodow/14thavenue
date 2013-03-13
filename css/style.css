@@ -27,5 +27,12 @@ h1, h2 {
 /* --------------- Header --------------- */
 
 header h1 {
+	font-size: 1.65em;
+}
+
+header h2 {
+	font-size: 1em;
 	
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 }
