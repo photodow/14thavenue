@@ -15,6 +15,8 @@ body {
 	font-weight: lighter;
 	font-size: 18px;
 	font-family: 'Lato', arial, verdana, sans-serif;
+	
+	letter-spacing: 2px;
 }
 
 h1, h2 {
@@ -25,6 +27,40 @@ h1, h2 {
 }
 
 
+/* --------------- Navigation --------------- */
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+	margin-right: 40px;
+}
+
+nav a {
+	color: #14385d;
+	text-decoration: none;
+	
+	font-family: 'Fenix', 'Times New Roman', Times, Georgia, serif;
+	
+	display: inline-block;
+	padding-bottom: 2px;
+}
+
+nav a:hover {
+	color: #185eaf;
+	border-bottom: 2px solid #185eaf;
+	padding-bottom: 0;
+}
+
+nav a:active {
+	color: #14385d;
+	border-bottom: 2px solid #14385d;
+}
+
 
 /* --------------- Header --------------- */
 
@@ -32,6 +68,8 @@ header {
 	width: 100%;
 	padding: 50px;
 	background-color: #ddd;
+	
+	text-shadow: 0px 1px 1px #f5f5f5;
 }
 
 header h1 {
@@ -43,7 +81,6 @@ header h1 {
 header h2 {
 	margin: 10px 0px 0px;
 	
-	font-weight: normal;
 	font-size: 1em;
 	font-family: 'Lato', arial, verdana, sans-serif;
 }
