@@ -8,13 +8,20 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font: lighter 18px 'Lato', arial, verdana, sans-serif;
+	
+	
 	color: #14385d;
+	
+	font-weight: lighter;
+	font-size: 18px;
+	font-family: 'Lato', arial, verdana, sans-serif;
 }
 
 h1, h2 {
 	padding: 0;
-	font: normal 'Fenix', 'Times New Roman', Times, Georgia, serif;
+	
+	font-weight: normal;
+	font-family: 'Fenix', 'Times New Roman', Times, Georgia, serif;
 }
 
 
@@ -29,15 +36,21 @@ header {
 
 header h1 {
 	margin: 0 0;
+	
 	font-size: 1.65em;
 }
 
 header h2 {
 	margin: 10px 0px 0px;
-	font-family: normal 1em 'Lato', arial, verdana, sans-serif;
+	
+	font-weight: normal;
+	font-size: 1em;
+	font-family: 'Lato', arial, verdana, sans-serif;
 }
 
 header p {
 	margin: 0;
-	font-size: italic .7em;
+	
+	font-style: italic;
+	font-size: .7em;
 }
