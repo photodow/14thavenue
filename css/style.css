@@ -9,7 +9,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', arial, sans-serif;
 	font-size: 18px;
 	font-weight: lighter;
 	color: #14385d;
@@ -50,5 +50,5 @@ header p {
 	margin: 0;
 	
 	font-style: italic;
-	font-size: .65em;
+	font-size: .7em;
 }
