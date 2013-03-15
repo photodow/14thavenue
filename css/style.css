@@ -177,6 +177,7 @@ header p {
 }
 
 #about article.content {
+	margin: 0 auto;
 	width: 80%;
 }
 
