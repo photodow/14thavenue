@@ -140,7 +140,7 @@ header p {
 
 }
 
-#about article {
+#about article.headline {
 	margin: 0 auto;
 	width: 650px;
 }
@@ -161,13 +161,14 @@ header p {
 
 #gallery ul {
 	list-style-type: none;
+	min-width: 930px;
 	overflow: hidden;
 	padding: 0;
+	margin: 50px 0;
 }
 
 #gallery li {
 	float: left;
-	min-width: 930px;
 	width: 12.5%;
 }
 
@@ -175,6 +176,17 @@ header p {
 	width: 100%;
 }
 
+#about article.content {
+	width: 80%;
+}
+
+#about h2 {
+	
+}
+
+#about p {
+	
+}
 
 
 /* --------------- Footer --------------- */
