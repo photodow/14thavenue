@@ -159,6 +159,22 @@ header p {
 	
 }
 
+#gallery ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+}
+
+#gallery li {
+	float: left;
+	min-width: 930px;
+	width: 12.5%;
+}
+
+#gallery li img {
+	width: 100%;
+}
+
 
 
 /* --------------- Footer --------------- */
