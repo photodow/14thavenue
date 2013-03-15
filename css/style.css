@@ -177,16 +177,20 @@ header p {
 }
 
 #about article.content {
+	-moz-column-count: 3; /* Firefox */
+	-webkit-column-count: 3; /* Safari and Chrome */
+	column-count: 3;
 	margin: 0 auto;
-	width: 80%;
+	width: 900px;
 }
 
 #about h2 {
-	
+	font-size: 1em;
+	margin: 0;
 }
 
 #about p {
-	
+	font-size: .85em;
 }
 
 
