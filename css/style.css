@@ -342,6 +342,10 @@ footer nav .top-button:active {/* top-button:active gradient */
 		margin-top: 8%;
 	}
 	
+	footer {
+		font-size: 18px;
+	}
+	
 }
 
 @media screen and (max-width: 900px) {
@@ -353,16 +357,13 @@ footer nav .top-button:active {/* top-button:active gradient */
 	
 	#logo-icon {
 		width: 59%;
+		font-size: 15px;
 	}
 	
 	header div.content {
 		width: 38.9178241%;
 		font-size: 18px;
 		margin-top: 7%;
-	}
-	
-	header {
-		background: #ddd url('../images/grey-texture.png') repeat left top;
 	}
 	
 }
@@ -377,15 +378,28 @@ footer nav .top-button:active {/* top-button:active gradient */
 		width: 25%;
 	}
 	
-	header div.content {
-		width: 49.8148148%;
-		font-size: 18px;
+	
+	#logo-icon {
+		width: 50%;
+		font-size: 11px;
 	}
 	
-
+	header nav ul {
+		margin-top: 0px;
+	}
+	
+	header div.content {
+		width: 46.7013889%;
+		font-size: 18px;
+		margin-top: 0px;
+	}
+	
+	header {
+		background: #ddd url('../images/grey-texture.png') repeat left top;
+	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
 
 	
 	
@@ -402,7 +416,8 @@ footer nav .top-button:active {/* top-button:active gradient */
 	}
 	
 	#logo {
-		margin: 20px 0;
+		display: block;
+		padding: 10px;
 	}
 	
 	#logo-icon {
@@ -422,8 +437,20 @@ footer nav .top-button:active {/* top-button:active gradient */
 		text-align: center;
 	}
 	
+	header h2 {
+		margin-top: 50px;
+	}
+	
 	header nav {
 		width: 100%;
+		background: #fff;
+	}
+	
+	header nav ul {
+	}
+	
+	header {
+		padding-top: 0;
 	}
 	
 	footer {
@@ -456,9 +483,4 @@ footer nav .top-button:active {/* top-button:active gradient */
 		font-size: 13px;
 	}
 
-}
-
-@media screen and (max-width: 320px) {
-
-	
 }
