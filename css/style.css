@@ -89,6 +89,10 @@ header div.content{
 	width: 28.9247312%; /* 269px */
 }
 
+#logo {
+	display: none;
+}
+
 #logo-icon {
 	float: left;
 	position: relative;
@@ -357,6 +361,10 @@ footer nav .top-button:active {/* top-button:active gradient */
 		margin-top: 7%;
 	}
 	
+	header {
+		background: #ddd url('../images/grey-texture.png') repeat left top;
+	}
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -377,7 +385,7 @@ footer nav .top-button:active {/* top-button:active gradient */
 
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 767px) {
 
 	
 	
