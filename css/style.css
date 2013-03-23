@@ -89,17 +89,17 @@ header div.content{
 	width: 28.9247312%; /* 269px */
 }
 
-#logo {
+#logo-icon {
 	float: left;
 	position: relative;
 	width: 67.7419355%;
 }
 
-#logo img {
+#logo-icon img {
 	width: 100%;
 }
 
-#logo h1 {
+#logo-icon h1 {
 	color: #fff;
 	float: left;
 	font-family: 'Lato', arial, verdana, sans-serif;
@@ -115,7 +115,7 @@ header div.content{
 	width: 92%;
 }
 
-#logo h1 span {
+#logo-icon h1 span {
 	color: #77afe4;
 	font-size: .6em;
 	font-weight: 200;
@@ -316,7 +316,7 @@ footer nav .top-button:active {/* top-button:active gradient */
 
 
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1036px) {
 
 	#about article.content {
 		-moz-column-count: 2; /* Firefox */
@@ -324,21 +324,60 @@ footer nav .top-button:active {/* top-button:active gradient */
 		column-count: 2;
 	}
 	
+	body {
+		font-size: 17px;
+	}
+	
+	#logo-icon {
+		width: 62%;
+	}
+	
+	header div.content {
+		width: 33.2098765%;
+		font-size: 18px;
+		margin-top: 8%;
+	}
+	
+}
+
+@media screen and (max-width: 900px) {
+	
+	body {
+		font-size: 16px;
+	}
+	
+	
+	#logo-icon {
+		width: 59%;
+	}
+	
+	header div.content {
+		width: 38.9178241%;
+		font-size: 18px;
+		margin-top: 7%;
+	}
+	
 }
 
 @media screen and (max-width: 768px) {
 
 	body {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	
 	#gallery li {
 		width: 25%;
 	}
+	
+	header div.content {
+		width: 49.8148148%;
+		font-size: 18px;
+	}
+	
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 775px) {
 
 	
 	
@@ -353,13 +392,65 @@ footer nav .top-button:active {/* top-button:active gradient */
 		-webkit-column-count: 1; /* Safari and Chrome */
 		column-count: 1;
 	}
-
-}
-
-@media screen and (max-width: 450px) {
-
+	
+	#logo {
+		margin: 20px 0;
+	}
+	
+	#logo-icon {
+		display: none;
+	}
+	
+	header div.center {
+		width: 100%;
+	}
+	
+	header div.content {
+		float: none;
+		width: 100%;
+	}
+	
+	header h2, header h3, header p {
+		text-align: center;
+	}
+	
+	header nav {
+		width: 100%;
+	}
+	
+	footer {
+		display: none;
+	}
+	
 	body {
 		font-size: 14px;
 	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	
+	
+	#about article.content {
+		-moz-column-count: 1; /* Firefox */
+		-webkit-column-count: 1; /* Safari and Chrome */
+		column-count: 1;
+	}
+	
+	#about article.content {
+		-moz-column-count: 1; /* Firefox */
+		-webkit-column-count: 1; /* Safari and Chrome */
+		column-count: 1;
+	}
+	
+	body {
+		font-size: 13px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
 	
 }
