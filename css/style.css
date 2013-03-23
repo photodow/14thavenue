@@ -397,6 +397,18 @@ footer nav .top-button:active {/* top-button:active gradient */
 	header {
 		background: #ddd url('../images/grey-texture.png') repeat left top;
 	}
+	
+	#about article.content {
+		-moz-column-count: 1; /* Firefox */
+		-webkit-column-count: 1; /* Safari and Chrome */
+		column-count: 1;
+	}
+	
+	#about article.content {
+		-moz-column-count: 1; /* Firefox */
+		-webkit-column-count: 1; /* Safari and Chrome */
+		column-count: 1;
+	}
 }
 
 @media screen and (max-width: 650px) {
@@ -416,8 +428,10 @@ footer nav .top-button:active {/* top-button:active gradient */
 	}
 	
 	#logo {
+		margin-right: 5%;
 		display: block;
-		padding: 10px;
+		padding: 5px 0 10px 14px;
+		border: 0;
 	}
 	
 	#logo-icon {
@@ -444,9 +458,38 @@ footer nav .top-button:active {/* top-button:active gradient */
 	header nav {
 		width: 100%;
 		background: #fff;
+		border-bottom: 1px solid #a3a3a3;
+		padding-top: 10px;
+	}
+	
+	header nav li {
+		margin: 0;
+		display: block;
+		float: none;
+		border-top: 1px solid #ddd;
 	}
 	
 	header nav ul {
+		margin: 0;
+	}
+	
+	header nav a {
+		padding: 10px;
+		padding-left: 14px;
+		width: 100%;
+	}
+	
+	header nav a:hover {
+		padding: 10px;
+		border-left: 4px solid #185eaf;
+		border-bottom: 0px;
+	}
+	
+	
+	header nav a:active {
+		padding: 10px;
+		border-left: 4px solid #185eaf;
+		background: #eaeaea;
 	}
 	
 	header {
@@ -455,28 +498,6 @@ footer nav .top-button:active {/* top-button:active gradient */
 	
 	footer {
 		display: none;
-	}
-	
-	body {
-		font-size: 14px;
-	}
-
-}
-
-@media screen and (max-width: 480px) {
-
-	
-	
-	#about article.content {
-		-moz-column-count: 1; /* Firefox */
-		-webkit-column-count: 1; /* Safari and Chrome */
-		column-count: 1;
-	}
-	
-	#about article.content {
-		-moz-column-count: 1; /* Firefox */
-		-webkit-column-count: 1; /* Safari and Chrome */
-		column-count: 1;
 	}
 	
 	body {
