@@ -460,7 +460,7 @@ footer nav .top-button:active {/* top-button:active gradient */
 	}
 	
 	header nav a:hover {
-		border-bottom: 0px;
+		border-bottom: 0;
 		border-left: 4px solid #185eaf;
 		padding: 10px;
 	}
