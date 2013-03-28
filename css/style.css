@@ -396,6 +396,7 @@ footer nav .top-button:active {/* top-button:active gradient */
 		display: block;
 		margin-right: 5%;
 		padding: 5px 0 10px 14px;
+		text-align: center;
 	}
 	
 	#logo-icon {
