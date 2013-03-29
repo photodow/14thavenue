@@ -12,7 +12,7 @@ body {
 	font-size: 1.15em;
 	font-weight: 300;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 0 38px 0;
 }
 
 body, footer {
@@ -226,6 +226,116 @@ header p {
 }
 
 
+/* --------------- Contact --------------- */
+
+#contact div.center{
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	max-width: 930px;
+	width: 90%;
+}
+
+#contact {
+	background: rgb(230, 230, 230);
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	padding: 50px;
+	text-shadow: 0 1px 1px #fff;
+}
+
+#contact h1 {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+#contact p {
+	font-size: .8em;
+	margin: 0 0 30px;
+}
+
+#contact-form {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+
+
+#contact form, #contact label, #contact input, #contact textarea {
+	width: 99%;
+}
+
+#contact label {
+	display: block;
+	font-weight: normal;
+	font-family: 'Fenix', 'Times New Roman', Times, Georgia, serif;
+	margin-top: 10px;
+}
+
+#contact input, #contact textarea, #contact select {
+	font-family: 'Lato', arial, verdana, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+#question {
+	margin: 10px 0;
+	float: right;
+}
+
+#question label {
+	display: inline;
+	margin-right: 20px;
+}
+
+#submit {
+	clear: both;
+	float: right;
+}
+
+#submit input {
+	width: 100px;
+}
+
+#contact address, #contact aside {
+	background: #14385d;
+	border: 1px solid #999;
+	border-radius: 5px;
+	color: #dce8f2;
+	float: right;
+	font-family: 'Lato', arial, verdana, sans-serif;
+	font-size: .9em;
+	font-style: normal;
+	font-weight: lighter;
+	margin-bottom: 23px;
+	padding: 15px;
+	text-shadow: 0 0 0;
+	width: 35%;
+}
+
+#contact address h2, #contact aside h2 {
+	border-bottom: 2px solid #9eb7ce;
+	font-size: 1.4em;
+	margin: 0 0 10px;
+	text-align: left;
+}
+
+#contact address table, #contact aside table {
+	border-spacing: 10px;
+	color: #9eb7ce;
+	margin: 0 auto;
+}
+
+#contact address th, #contact aside th {
+	font-weight: normal;
+	font-family: 'Fenix', 'Times New Roman', Times, Georgia, serif;
+	text-align: right;
+	vertical-align: top;
+}
+
+
+
+
 /* --------------- Footer --------------- */
 
 footer {
@@ -236,6 +346,7 @@ footer {
 }
 
 #fade {/* fade properties */
+	display: none;
 	height: 30px;
 }
 
