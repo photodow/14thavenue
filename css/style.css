@@ -297,7 +297,7 @@ header p {
 	width: 100px;
 }
 
-#contact address, #contact aside {
+#contact aside {
 	background: #14385d;
 	border: 1px solid #999;
 	color: #dce8f2;
@@ -312,20 +312,20 @@ header p {
 	width: 35%;
 }
 
-#contact address h2, #contact aside h2 {
+#contact aside h2 {
 	border-bottom: 2px solid #9eb7ce;
 	font-size: 1.4em;
 	margin: 0 0 10px;
 	text-align: left;
 }
 
-#contact address table, #contact aside table {
+#contact aside table {
 	border-spacing: 10px;
 	color: #9eb7ce;
 	margin: 0 auto;
 }
 
-#contact address th, #contact aside th {
+#contact aside th {
 	font-weight: normal;
 	font-family: 'Fenix', 'Times New Roman', Times, Georgia, serif;
 	text-align: right;
@@ -460,6 +460,10 @@ footer nav .top-button:active {/* top-button:active gradient */
 		margin-top: 7%;
 		width: 38.9178241%;
 	}
+
+	#contact aside {
+		font-size: .8em;
+	}
 	
 }
 
@@ -492,6 +496,18 @@ footer nav .top-button:active {/* top-button:active gradient */
 		-moz-column-count: 1; /* Firefox */
 		-webkit-column-count: 1; /* Safari and Chrome */
 		column-count: 1;
+	}
+
+	#contact aside {
+		float: none;
+		font-size: 1em;
+		width: 100%;
+	}
+
+	#contact article {
+		float: none;
+		margin-bottom: 30px;
+		width: 100%;
 	}
 }
 
@@ -584,4 +600,12 @@ footer nav .top-button:active {/* top-button:active gradient */
 		display: none;
 	}
 
+}
+
+@media screen and (max-width: 480px) {
+
+	#contact aside {
+		font-size: .8em;
+	}
+	
 }
